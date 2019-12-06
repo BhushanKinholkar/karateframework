@@ -7,7 +7,7 @@ Feature: chek user returen by the api
 	Scenario Outline: creted user in system
 		Given path '/api/v1/create'
 		And request {name:'<name>',salary:'<salary>',age:'<age>'}
-		When method post
+		When method POST
 		Then status 200
 		
 	Examples:
