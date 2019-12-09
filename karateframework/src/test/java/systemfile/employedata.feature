@@ -9,6 +9,7 @@ Feature: get id related data from the api
 		When method GET
 		Then status 200
 		And def userresponse = response
+		And print 'Response is: ', response 
 		Then match userresponse contains {employee_name:'fundita3'}
 		
 		
@@ -17,6 +18,7 @@ Feature: get id related data from the api
 		When method GET
 		Then status 200
 		And def userresponse = response
+		And print 'Response is: ', response 
 		Then match userresponse contains {employee_name:'fundita2'}
 		
 	Scenario: check user return by employee_name
@@ -24,6 +26,7 @@ Feature: get id related data from the api
 		When method GET
 		Then status 200
 		And def userresponse = response
+		And print 'Response is: ', response 
 		Then match userresponse contains {employee_name:'Rohit sharama'}
 		
     Scenario: check user return by employee_salary
@@ -31,6 +34,7 @@ Feature: get id related data from the api
 		When method GET
 		Then status 200
 		And def userresponse = response
+		And print 'Response is: ', response 
 		Then match userresponse contains {employee_salary:'33000'}	
 		
 	Scenario: check user return by employee_age
@@ -38,6 +42,7 @@ Feature: get id related data from the api
 		When method GET
 		Then status 200
 		And def userresponse = response
+		And print 'Response is: ', response 
 		Then match userresponse contains {employee_age:'29'}	
 		
 		

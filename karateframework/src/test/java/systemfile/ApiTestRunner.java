@@ -7,10 +7,13 @@ import com.intuit.karate.junit4.Karate;
 
 import cucumber.api.CucumberOptions;
 
+
+
 @RunWith(Karate.class)
-@CucumberOptions(strict = false,format = { "pretty",
-        "html:target/site/cucumber-pretty",
-        "json:target/cucumber.json" }, tags = { "~@ignore" })
+@CucumberOptions(
+        features = {"classpath:features"},
+        plugin = {"html:target/site/cucumber-pretty","json:target/cucumber.json"}
+        )
 @KarateOptions(features = {
 	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/allemployeedata.feature",
 	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/employedata.feature",
@@ -19,4 +22,5 @@ import cucumber.api.CucumberOptions;
 	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/deleteuser.feature"})
 public class ApiTestRunner 
 {
+	
 }

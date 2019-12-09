@@ -12,6 +12,6 @@ Feature: chek user returen by the api
 		
 	Examples:
       | name               | salary   | age |
-      | Rohit sharama      | 33000    | 28  |
-      | Virat kohali       | 25000    | 29  |
+      | Abhay patil        | 33000    | 28  |
+      | Mrunali Jadhav       | 25000    | 29  |
       
