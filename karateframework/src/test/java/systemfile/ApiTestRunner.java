@@ -14,7 +14,9 @@ import cucumber.api.CucumberOptions;
 @KarateOptions(features = {
 	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/allemployeedata.feature",
 	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/employedata.feature",
-	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/usercreate.feature"})
+	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/usercreate.feature",
+	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/updateuser.feature",
+	    "/home/bhushank/git/karateframework/karateframework/src/test/java/systemfile/deleteuser.feature"})
 public class ApiTestRunner 
 {
 }
