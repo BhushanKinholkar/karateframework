@@ -1,0 +1,10 @@
+This project is base on karate framework API testing.
+The development tools used
+   -Eclipse
+Programming language
+	-Java
+API framework
+  - Karate framework
+-I have verified the basic CURD operation with a positive and negative scenario.
+
+
