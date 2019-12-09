@@ -1,10 +1,13 @@
 This project is base on karate framework API testing.
 The development tools used
    -Eclipse
+Build tool
+ -maven
 Programming language
 	-Java
 API framework
   - Karate framework
 -I have verified the basic CURD operation with a positive and negative scenario.
+-url :- http://dummy.restapiexample.com/
 
 
