@@ -9,5 +9,5 @@ API framework
   - Karate framework
 -I have verified the basic CURD operation with a positive and negative scenario.
 -url :- http://dummy.restapiexample.com/
-
+- Generated karate report
 
