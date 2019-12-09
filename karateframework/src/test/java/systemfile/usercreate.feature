@@ -11,9 +11,7 @@ Feature: chek user returen by the api
 		Then status 200
 		
 	Examples:
-      | name             | salary  | age |
-      | Tim@erter        | 3000    |36   |
-      | 213hfkds         | 250     |96   |
-      | cvdse3           | 360     |26   |
-      | T7483            | 280     |39   |
-      		
+      | name               | salary   | age |
+      | Rohit sharama      | 33000    | 28  |
+      | Virat kohali       | 25000    | 29  |
+      
